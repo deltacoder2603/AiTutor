@@ -67,7 +67,7 @@ The project is divided into two main components:
 
 3. Run the backend server:
    ```bash
-   python main.py
+   uvicorn main:app --reload
    ```
    The server will start on http://localhost:8000
 
